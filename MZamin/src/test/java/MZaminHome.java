@@ -19,14 +19,8 @@ public class MZaminHome extends Base {
     public void myFirstTry() throws  InterruptedException, Exception{
         System.out.println("\n --------------////786//// ------------------ \n");
         String curTitle =  webDriver.getTitle();
-
         System.out.println("First Title"+ curTitle);
-
-
         webDriver.quit();
-
-
-
 
     }
 }
